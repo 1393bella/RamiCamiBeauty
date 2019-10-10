@@ -1,0 +1,334 @@
+img{
+    width:100%;
+    
+}
+
+.mainPicture{
+  background-image: url("../../assets/main_pic_2.jpg");
+  background-size:cover;
+  /* background-repeat: repeat-x; */
+  width: 100%;
+  height: 100%;
+  /* width:100%; */
+}
+
+
+.my-container{
+    /* border: 1px  solid green ; */
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  /* .banana-container{
+    width:1500px; if i want to have a container with a different width
+
+  } */
+
+  .banana-row{
+    padding: 0;
+    margin: 0;
+    height: 600px;
+    /* display: inline-block; */
+    background-image: url("../../assets/main_picture.jpg");
+    background-size:cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+    
+  }
+  .my-row{
+    /* border: 3px solid red; */
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    /* background-color:black; */
+  }
+  .my-col{
+    margin: 0;
+    padding: 0;
+  }
+
+  /* esli my-col pomenyat na parent , to budet otdelnye box */
+  .parent{
+    /* border: 1px dotted blue; */
+    padding: 0;
+    margin: 0;
+    /* animation start for zoom pictures */
+    /* animation ends */
+
+  }
+  
+
+.hair_box{
+    background-image: url("../../assets/hair_4.jpg");
+    background-position: center;
+    width:auto;
+    height: 100%;
+    background-size:cover;
+    padding: 0;
+    margin: 0;
+    /* animation start for zoom pictures */
+   
+    /* animation ends */
+
+ }
+
+.nail_box{
+     background-image: url("../../assets/manicure_pic.jpg");
+     width: auto;
+     height: 100%;
+     background-repeat: no-repeat;
+     background-size:cover;
+     padding: 0;
+     margin: 0;
+ }
+
+
+ .make-up_box{
+    background-image: url("../../assets/make_up_4.jpg");
+    background-size:cover;
+    width: auto;
+    height: 100%;
+ }
+
+ .eyelash{
+     background-image: url("../../assets/eyelash_6.jpg");
+     background-size:cover;
+     width: auto;
+     height: 100%;
+ }
+
+ 
+.nameOfSalon{
+    background-image: url("../../assets/pattern_pink_2.jpg");
+    /* background-color: aqua; */
+    width: auto;
+    height: 100%;
+}
+
+.bridal_service{
+  background-image: url("../../assets/bridal_7.jpg");
+  background-size:cover;
+  background-position: center;
+    width: auto;
+    height: 100%;
+    
+}
+
+.wax{
+  background-image: url("../../assets/waxing_7.jpg");
+    background-position: center;
+    width:auto;
+    height: 100%;
+    /* background-size:cover; */
+}
+
+h1{
+  font-family: 'Tangerine', cursive;
+  text-align: left;
+  padding-top: 50px;
+  font-size: 5.5rem;
+  margin-top: 283px;
+  margin-left: 768px;
+  /* position: center; */
+
+}
+h2{
+  font-family: 'Tangerine', cursive;
+  font-size: 3.5rem;
+  color: deeppink;
+}
+
+/* ///////////////////////////////////////////////////// */
+
+
+
+
+
+/* animation start for hover services  */
+.parent:hover .nestedsecond,
+.parent:focus .nestedsecond {
+  transform: scale(1.2);
+  transition: all .5s;
+}
+
+.nestedsecond::before {
+  content: "";
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(206, 156, 176, 0.75);
+}
+
+.parent:hover .nestedsecond:before,
+.parent:focus .nestedsecond:before {
+  display: block;
+}
+
+.parent:hover .nestedsecond:before, .parent:focus .nestedsecond:before {
+  display: block;
+}
+
+.parent:hover a, .parent:focus a {
+  display: block;
+}
+
+/* span{
+  color: white; /* Good thing we set a fallback color! */
+  /* font-family: sans-serif;
+  padding: 25%;
+  position: absolute;
+} */ 
+
+.parent:hover span,
+.parent:focus span {
+  display: block;
+}
+.parent {
+  width: auto; 
+  height: 400px;
+  overflow: hidden;
+}
+
+.nestedsecond {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+a {
+  display: none;
+  font-size: 35px;
+  color: #ffffff !important;
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 50px;
+  cursor: pointer;
+  /*text-decoration: none;*/
+}
+
+.parent:hover .nestedsecond, .parent:focus .nestedsecond {
+  -ms-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 960px) {
+  .parent {width: 100%; margin: 20px 0px}
+      .wrapper {padding: 20px 20px;}
+}
+
+/* animation end for hover services  */
+
+
+
+
+@media only screen and (max-width: 480px){
+
+
+  .my-container{
+    width:480px;    
+    height:auto;
+    padding: 0;
+  /* /* vertical-align:top;  */
+  }
+
+    .my-row{
+      height: 1300px;
+      
+      margin: 0;
+      padding: 0;
+
+    }
+
+    my-col{
+      width:auto;
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width:812px){
+
+
+    .my-container{
+      width:auto;    
+      height:auto;
+      padding: 0;
+    /* /* vertical-align:top;  */
+    }
+
+    .my-row{
+      height:  auto;
+    }
+
+    .my-col{
+      width:auto;
+     
+    }
+
+
+} 
+
+
+@media only screen 
+and (min-width : 375px) 
+and (max-width : 812px)
+ { 
+
+        .banana-row{
+          background-position: right;
+        }
+
+        /* .wrap-container{
+           height: auto;
+           width: 375px; */
+           /* text-align: center; */
+           /* margin: 0 auto; */
+           /* position: absolute;
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%, -50%); */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; 
+         
+        }*/
+
+        .my-container{
+          width:375px;
+          margin: 0 auto;
+          text-align: center;
+
+        }
+        /*
+        .my-container h1{
+          margin-right:200px;
+     
+        }
+
+        .banana-row{
+          width:365px;
+        } */
+
+ }

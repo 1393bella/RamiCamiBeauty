@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.my-container{
+  margin:0 auto;
+  text-align: center;
+}
+  
+  .visit_box{
+    height: 1150px;
+    /* background-color: rgb(146, 123, 123); */
+    background-image: url("./../assets/pattern_pink_2.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    /* width: 100%; */
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    margin: 0 auto;
+  }
+
+  .map {
+      height: 50%;
+      width: 70%;
+      background-image: url(".././assets/map_3.png");
+      background-position: center;
+      margin: 0 auto;
+      border: 2px solid rgb(41, 40, 40);
+      
+    }
+
+
+  .contact_box{
+    height: 800px;
+    /* background-color: rgb(57, 173, 181); */
+    background-image: url("./../assets/geometric_pink_gold.jpg");
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+
+  h2{
+    font-family: 'Tangerine', cursive;
+    font-size: 4.5rem;
+    
+  }
+
+  h4{
+    font-family: 'Tangerine', cursive;
+    font-size: 3.5rem;
+  }
+
+  p{
+    font-family: 'Tangerine', cursive;
+    text-decoration: none;
+    font-size: 2.5rem;
+    
+  }
+
+  .squarelink{
+    font-family: 'Tangerine', cursive;
+    /* text-decoration: none; */
+    font-size: 2.5rem;
+    text-align:center;
+     margin:0 auto;
+    /* position: absolute;
+    left: 45%;
+    margin-left: -45px; */
+    
+  }
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+/* nav bars start responsive decoration  search column hover*/
+  
+/* body {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  background-color: #f4f4f4;
+} */  
+
+.box {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  
+}
+
+.site-nav {
+  height: 100px;
+  background-color:black;
+  color: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(104, 57, 49, 0.27);
+}
+.site-nav .box {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-nav .logo a {
+  text-decoration: none;
+  color: #F88;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.3em;
+  font-weight: normal;
+}
+.site-nav #mobile-menu-toggle {
+  all: unset;
+  display: none;
+  position: relative;
+  z-index: 9999;
+  align-items: center;
+  box-sizing: border-box;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+.site-nav #mobile-menu-toggle span {
+  font-size: 15px;
+  margin-left: 5px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+.site-nav #mobile-menu-toggle .fas {
+  font-size: 20px;
+  color: #F88;
+}
+@media screen and (max-width: 960px) {
+  .site-nav #mobile-menu-toggle {
+    display: flex;
+  }
+}
+.site-nav .nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.site-nav .nav-menu a {
+  display: block;
+  height: 70px;
+  padding: 0 15px;
+  line-height: 70px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  position: relative;
+  z-index: 1;
+  transition: color .2s ease;
+}
+.site-nav .nav-menu a:hover {
+  color: #FFF;
+}
+.site-nav .nav-menu li.active a :hover{
+  background-color: #F88;
+  color: #FFF;
+}
+@media screen and (max-width: 960px) {
+  .site-nav .nav-menu {
+    position: fixed;
+    z-index: 999;
+    width: 250px;
+    height: 100vh;
+    background-color: #28333e;
+    top: 0;
+    right: -250px;
+    padding-top: 70px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    transition: right .2s ease;
+  }
+  .site-nav .nav-menu.active {
+    right: 0;
+  }
+  .site-nav .nav-menu li {
+    width: 100%;
+  }
+  .site-nav .nav-menu li a {
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+}
+
+/* nav bars end responsive decoration  */
+
+
+
+
+
+
+
+
+
+
+
+/*   
+  @media (max-width: 992px) {
+    .container h1 {font-size: 30px;}
+    .container ul li {width: calc(100% / 4);}
+  }
+  
+  @media (max-width: 768px) {
+    .container {width: 100%;}
+  }
+  
+  @media (max-width: 480px) {
+    .container {margin: 20px auto;}
+    .container ul li {width: calc(100% / 2);}
+  }
+  @media (max-width: 360px) {
+    .container {margin: 0 auto;}
+    .container ul li {width: calc(100% / 1);}
+  } */

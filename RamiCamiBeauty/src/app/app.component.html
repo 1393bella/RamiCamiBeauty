@@ -1,0 +1,124 @@
+
+
+        <!-- nav-bar starts -->
+        <script>
+            
+          // this makes nav bar smaller and turn to mobile icon 
+          const mobileMenuToggle = document.querySelector('#mobile-menu-toggle');
+          const mobileMenu = document.querySelector('.nav-menu');
+        
+          mobileMenuToggle.addEventListener('click', toggleMenu);
+        
+          function toggleMenu(e){
+          this.querySelector('.fas').classList.toggle('fa-bars');
+          this.querySelector('.fas').classList.toggle('fa-times');
+          mobileMenu.classList.toggle('active');
+          }
+          
+        
+          </script>
+        
+        
+        <nav class="site-nav">
+            
+          <div class="box">
+            
+            <h1 class="logo">
+              <a href="#">RamiCami</a>
+            </h1>
+            
+            <!-- <button id="mobile-menu-toggle" type="button">
+              <i class="fas fa-bars"></i>
+              <span>Menu</span>
+            </button>
+            
+            <ul class="nav-menu">
+              <li class="active">
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Services</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+             -->
+          </div>
+          
+        </nav>
+
+        <!-- nav-bar ends -->
+
+
+  
+  <router-outlet></router-outlet>
+
+
+  <div class="visit_box"  data-aos="fade-right" data-aos-duration="2000" >
+    <br>
+      <h2 style="text-align:center">Visit Us:</h2>
+      
+      <h4 style="text-align:center">Opening hours:</h4>
+      
+      <p style="text-align:center"><span>   Monday-Friday: 9am-8pm  </span> </p>
+      <p style="text-align:center"><span>  Saturday: 9am-7pm </span>  </p>
+      <p style="text-align:center"> <span>  Sunday: 9am-5pm </span>  </p>
+      
+      
+      <h4 style="text-align:center">Our location:</h4>
+      
+      <p style="text-align:center">  2337 North  Clark street, Chicago, IL </p>
+      
+      <div class="map" data-aos="fade-up" data-aos-duration="3000">
+        
+        <!-- <img src="./../assets/Screen Shot 2019-09-15 at 9.13.29 PM.png"> -->
+      </div>
+      <br>
+      
+      </div>
+
+
+
+
+
+
+
+      <div class="contact_box" data-aos="fade-left" data-aos-duration="2000">
+          <br>
+            <h2 style="text-align:center">Contact Us</h2>
+            <p style="text-align:center"> phone: 773 248 9096</p>
+            <p  style="text-align:center">e-mail: ramicamibeauty@gmail.com</p>
+            <div style="text-align: center"><a class="squarelink"  href="https://squareup.com/appointments/book/FJAHH4ST74XK0">book an appointment</a></div>
+            <app-contact-us></app-contact-us>
+      </div>
+
+
+
+
+
+
+
+
+
+
+        <br>
+        <br>
+
+        <footer id="footer" style="text-align:center">
+          <div id="footerDesign" style="text-align:center"> © web application created By Bermet Japar 2019
+            <br>
+          </div>
+        </footer>
+        <br>
+        <br>
+
+ 
+
+
+
+
+
